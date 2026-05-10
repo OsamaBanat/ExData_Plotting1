@@ -84,7 +84,7 @@ legend(
 plot(selected_data$DateTime, selected_data$Global_reactive_power, 
      pch = ".", 
      ylab = "Global_reactive_power", 
-     xlab = "", 
+     xlab = "datetime", 
      xaxt = "n")
 
 lines(selected_data$DateTime, selected_data$Global_reactive_power)
