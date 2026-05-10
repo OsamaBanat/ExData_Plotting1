@@ -19,7 +19,7 @@ selected_data$DateTime <- strptime(
 png("plot2.png", width = 480, height = 480)
 
 
-## draw a histogram
+## draw plot 2
 par (mar = c(4,4,2,2))
 plot (selected_data$DateTime, selected_data$Global_active_power, pch = ".", ylab = "Global Active Power (kilowatts)", xlab = "", xaxt = "n" )
 lines(selected_data$DateTime, selected_data$Global_active_power)
